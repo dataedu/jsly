@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5"></View>
+
+    <LinearLayout
+        android:id="@+id/background_lin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#2196f3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="9dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/item_image"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/titlelable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="最新待办"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="(长按调整顺序)"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffff"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/delete_app"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/app_del"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5"
+        android:layout_marginTop="9dp"></View>
+
+
+</LinearLayout>
